@@ -1,0 +1,19 @@
+{
+    "name": "<your package>",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "npm run client-start",
+        "client-start": "tsc && concurrently \"npm run tsc:w\" \"node app\"",
+        "tsc": "tsc",
+        "tsc:w": "tsc -w",
+        "typings": "typings"
+    },
+    "dependencies": {
+        
+    },
+    "devDependencies": {
+        "concurrently": "2.2.x",
+        "typescript": "2.0.x",
+        "typings": "1.4.x"
+    }
+}
