@@ -2,8 +2,8 @@
     "name": "<your package>",
     "version": "0.0.1",
     "scripts": {
-        "start": "npm run client-start",
-        "client-start": "tsc && concurrently \"npm run tsc:w\" \"node app\"",
+        "start": "node app.js",
+        "client-start": "tsc && npm run \"tsc:w\"",
         "tsc": "tsc",
         "tsc:w": "tsc -w",
         "typings": "typings"
