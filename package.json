@@ -12,8 +12,6 @@
         
     },
     "devDependencies": {
-        "concurrently": "2.2.x",
-        "typescript": "2.0.x",
-        "typings": "1.4.x"
+        "typescript": "2.0.x"
     }
 }
